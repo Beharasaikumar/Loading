@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(51, 49, 49);
+}
+.ss{
+  display: flex;
+ 
+}
+.load{
+  color: rgb(235, 245, 126);
+  font-size: 100px;
+  margin-left: -750px;
+  margin-top:330px ;
+}
+.loading{
+    height: 200px;
+    width: 200px;
+    border: 26px solid rgb(45, 239, 91);
+    margin-right: 800px;
+    border-radius: 20% ;
+   margin-top: 300px;
+   
+    animation: spin 2s linear infinite;
+    
+}
+
+@keyframes spin{
+0%{
+  transform: rotate(0deg) ;
+}
+
+ 100%{
+  
+  transform: rotate(360deg);
+ }
+
+}
